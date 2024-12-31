@@ -26,16 +26,16 @@ menu:
 ######################### Default Parameters ###########################
 
 # logo
-logo: "/assets/images/logo.svg"
+logo: "/assets/images/bitcraft_banner.svg"
 # meta data
-author: "Themefisher"
+author: "BitCraft Production"
 description: "This is meta description"
 # google analitycs ID
 google_analitycs_id: "" # your id
 # contact form action
 contact_form_action: "#" # contact form works with : https://formspree.io
 # copyright
-copyright: "Copyright &copy; 2022 Designed and Developed by [Themefisher](https://themefisher.com)"
+copyright: "Copyright &copy; 2025 Designed and Developed by [BitCraft Production](https://www.bitcraftproduction.com)"
 
 # preloader
 preloader:
