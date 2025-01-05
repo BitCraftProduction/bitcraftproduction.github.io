@@ -3,8 +3,9 @@ menu:
   # main menu
   main:
     - { name: Home, url: "/" }
+    - { name: About Us, url: "about-us.html" }
     - { name: Contact, url: "contact.html" }
-    - { name: Tools, url: "tools.html" }
+    - { name: Disclaimer, url: "disclaimer.html"}
 
   ##### Dropdown menu ######
 
@@ -20,13 +21,16 @@ menu:
   # Footer menu
   footer:
     - { name: Home, url: "/" }
+    - { name: About Us, url: "about-us.html" }
     - { name: Contact, url: "contact.html" }
+    - { name: Disclaimer, url: "disclaimer.html"}
+    - { name: Privacy Policy, url: "privacy-policy.html"}
     - { name: Tools, url: "tools.html" }
 
 ######################### Default Parameters ###########################
 
 # logo
-logo: "/assets/images/bitcraft_banner.svg"
+logo: "/assets/images/bitcraft_banner.png"
 # meta data
 author: "BitCraft Production"
 description: "This is meta description"
