@@ -2,7 +2,7 @@
 title : "The Rise of Quantum Computing for Developers: Introduction and Applications"
 image : "/assets/images/post/january-2025/quantum_computing_for_developers.webp"
 author : "BitCraft Production"
-date: 2024-01-06 09:36:50 +0600
+date: 2025-01-06 09:36:50 +0600
 description : "In this article, we'll explore the rise of quantum computing for developers, its applications, and the potential it has to revolutionize the field of software development."
 tags : ["Technology"]
 ---
