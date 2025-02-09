@@ -1,8 +1,10 @@
 ---
 layout: contact
 title: "Contact Us"
-description : "this is meta description"
+description : "Contact Us"
 image: "/assets/images/contact.svg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor.
+You can contact us here -
+
+**Email:** <a href="mailto:bitcraftproduction@gmail.com">bitcraftproduction@gmail.com</a>
