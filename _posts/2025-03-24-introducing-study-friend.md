@@ -2,7 +2,7 @@
 title : "Introducing Study Friend: Your AI-Powered Learning Companion"
 image : "/assets/images/post/2025/studyfriend_introduction_thumbnail.webp"
 author : "BitCraft Production"
-date: 2025-03-23 09:36:50 +0600
+date: 2025-03-24 09:36:50 +0600
 description : "Study Friend is your all-in-one AI-powered learning app designed to make studying faster, easier, and more effective!"
 tags : ["App"]
 ---
