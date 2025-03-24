@@ -12,8 +12,6 @@ I personally used to get confused when studying complex topics across different 
 
 ### What is Study Friend?
 
-![alt Study Friend](/assets/images/post/2025/studyfriend_introduction_thumbnail.webp)
-
 *Study Friend* is your all-in-one AI-powered learning app designed to make studying faster, easier, and more effective! Whether you're preparing for exams, boosting general knowledge, or just love learning, we have everything you need. It simplifies learning by providing:
 
 #### **1. Quick Facts Feed**
