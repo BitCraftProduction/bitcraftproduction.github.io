@@ -1,9 +1,9 @@
 ---
 title : "Introducing Study Friend: Your AI-Powered Learning Companion"
-image : "/assets/images/post/january-2025/quantum_computing_for_developers.webp"
+image : "/assets/images/post/2025/studyfriend_introduction_thumbnail.webp"
 author : "BitCraft Production"
 date: 2025-03-23 09:36:50 +0600
-description : "In this article, we'll explore the rise of 5G technology and its impact on IoT."
+description : "Study Friend is your all-in-one AI-powered learning app designed to make studying faster, easier, and more effective!"
 tags : ["App"]
 ---
 
