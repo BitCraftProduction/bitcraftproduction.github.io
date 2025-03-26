@@ -60,5 +60,5 @@ Plus, enjoy 5 free searches!
 We believe learning should be engaging, effective, and accessible. *Study Friend* is designed to be more than just an app—it’s your personal AI mentor, always ready to assist you in your learning journey.
 
 **Ready to transform the way you study?**  
-📲 Download [Study Friend](https://play.google.com/store/apps/details?id=com.bitcraft.studyfriend) today and take your learning to the next level!
+📲 Download [Study Friend](https://play.google.com/store/apps/details?id=com.studyfriend.mobile) today and take your learning to the next level!
 
