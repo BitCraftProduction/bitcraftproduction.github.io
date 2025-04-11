@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
+    "deploy": "npm run build && cd dist && git pull origin main --rebase && git add . && git commit -m '🚀 Deploy' && git push origin main && cd ..",
     "dev:network": "astro dev --host",
     "start": "astro dev",
     "build": "astro check && astro build",

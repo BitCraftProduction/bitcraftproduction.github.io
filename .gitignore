@@ -4,3 +4,20 @@ _site
 *.DS_Store
 Gemfile.lock
 .jekyll-cache
+
+# dependencies
+node_modules/
+.pnpm-debug.log
+npm-debug.log
+
+# build output
+dist/
+.astro/
+
+# environment files
+.env
+.env.*.local
+
+# system files
+
+Thumbs.db
