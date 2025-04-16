@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://bitcraftproduction.github.io/sitemap-index.xml

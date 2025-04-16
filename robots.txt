@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://bitcraftproduction.github.io/sitemap-index.xml
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://www.bitcraftproduction.com/sitemap.xml

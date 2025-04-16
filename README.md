@@ -1,89 +1,53 @@
-![Astro Sphere Lighthouse Score](_astrosphere.jpg)
+# Northendlab Jekyll
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+![northendlab](https://demo.themefisher.com/thumbnails/northendlab-jekyll.png)
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+[live demo](https://demo.themefisher.com/northendlab-jekyll/)
 
-## 🚀 Deploy your own
+### Jekyll Install
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere)
+First of all, you need to install Jekyll on your PC. If you don't know how to install Jekyll on your PC, here is great [documentation](https://jekyllrb.com/docs/installation/) for beginners.
 
-## 📋 Features
+### Theme Install
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
-- ✅ Code Blocks - copy to clipboard
+After installing Jekyll on your pc, [download](https://github.com/themefisher/northendlab-jekyll) the theme from this repository. Unzip it and run `bundle exec jekyll server` to run this template on your localhost.
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](_lighthouse.png)
+### Main Configuration
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+You don't need to change anything in the main configuration (`_config.yml`), just you need to change the `baseURL` when you host this template.
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+You will find every parameter in `_data/parameters.yml`` this file.
 
-## 📄 Configuration
+#### Navigation Menu
 
-The blog posts on the demo serve as the documentation and configuration.
+You can set the main menu and footer menu also from `_data/parameters.yml`, just follow the existing loop for creating a new menu item. This theme also supports the dropdown menu.
 
-## 💻 Commands
+### Creating New Post
 
-All commands are run from the root of the project, from a terminal:
+For creating a new blog post, you need to go to the `_posts` folder and create a new file. Make sure you are creating this file name with the existing post name structure which is `year-month-date-post-name.md`. (i.e `2020-02-06-my-awesome-blog.md`). Then follow the existing post front-matter to configure it. Or you can simply copy an existing post and replace its content.
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+### Creating a New Author
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts dev server on local network               |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Starts preview server on local network           |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+This is the same process for the blog post. Copy an existing author file, and replace your content and file name.
 
-## 🗺️ Roadmap
+### Customize Other Pages
 
-A few features I plan to implement
-- ⬜ Article Pages - Table of Contents
-- ⬜ Article Pages - Share on social media
+Another page customization (like about, contact) is very easy. You can see the other page in the `_pages/` folder. Find the page that you want to customize, and change the content from it. If this page has any loop item, then follow the existing loop to create a new one.
 
-## ✨ Acknowledgement
+### Reporting Issues
 
-Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
+We use GitHub Issues as the official bug tracker for the **Northendlab Jekyll Theme**. Please Search [existing issues](https://github.com/themefisher/northendlab-jekyll/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/northendlab-jekyll/issues/new)
 
+### Technical Support or Questions (Paid)
 
-## 🏛️ License
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-MIT
+<!-- licence -->
+## License
 
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
-# 1.0.1 Update
+**Code License:** Released under the [MIT](https://github.com/themefisher/northendlab-jekyll/blob/main/LICENSE) license.
 
-Added ability to run dev and preview on local network.
-added npm run dev:network
-added npm run preview:network
-
-Added slightly more particle density in both light and dark mode.
-
-Added subtle dark mode star and meteor animations.
-
-Removed eslint config
-
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
