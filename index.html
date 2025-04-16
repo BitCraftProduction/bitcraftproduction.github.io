@@ -1,67 +1,60 @@
 ---
+title: Home
 layout: default
+background: '/img/bg-index.jpg'
 ---
 
-<!-- banner -->
-{% if site.data.homepage.banner.enable %}
-<section class="banner bg-cover"
-  style="background-image: url('{{ site.data.homepage.banner.bg_image | relative_url }}');">
-  <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid illustration" alt="">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mb-5 mb-lg-0">
-        <h1>{{ site.data.homepage.banner.title }}</h1>
-        <p>{{ site.data.homepage.banner.description}}</p>
-      </div>
-      <div class="col-lg-6 illustration-mobile">
-        <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid" alt="">
-      </div>
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/" %} 
+<div class="rounded mb-5 hero">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">Let me  teach you how to become successful online</h1>
+      <p class="lead mb-4">My name is Lyam and I'm here to share with you my knowledge and experience of over 10 years of monetizing my blog.</p>
+      <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+    </div>
+    <div class="col-md-6 text-right pl-0 pl-lg-4">
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
     </div>
   </div>
-</section>
+</div>
 {% endif %}
-<!-- /banner -->
 
-<!-- blog -->
-<section class="section">
-  <div class="container">
-    <h2>Latest Posts</h2>
-    <div class="row">
-      <div class="col-lg-8 mx-auto px-0">
-        <div class="bg-white shadow block">
-          {% for post in paginator.posts %}
-          {% include post.html %}
-          {% endfor %}
-          <!-- pagination -->
-          {% include pagination.html %}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /blog -->
-
-<!-- call_to_action -->
-{% if site.data.homepage.call_to_action.enable %}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <div class="row shadow bg-white p-5">
-          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
-            <img src="{{ site.data.homepage.call_to_action.image | relative_url }}" class="mr-4 img-fluid rounded" alt=""></div>
-          <div class="col-md-8 text-center text-md-left">
-            <h3 class="mt-0">{{ site.data.homepage.call_to_action.title }}</h3>
-            <p>{{ site.data.homepage.call_to_action.description }}</p>
-            {% if site.data.homepage.call_to_action.button.enable %}
-            <a href="{{ site.data.homepage.call_to_action.button.link | relative_url }}"
-              class="btn btn-primary">{{ site.data.homepage.call_to_action.button.label }}</a>
-            {% endif %}
+<!-- Featured
+================================================== -->
+<section class="row">
+  {% for post in site.posts %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
           </div>
-        </div>
-      </div>
-    </div>
+      {% endif %}
+  {% endfor %}
   </div>
 </section>
-{% endif %}
-<!-- /call_to_action -->
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</section>
