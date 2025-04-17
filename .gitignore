@@ -12,6 +12,8 @@ npm-debug.log
 
 # build output
 .astro/
+vendor/
+.bundle/
 
 # environment files
 .env
