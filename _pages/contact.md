@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contact
 title: "Contact Us"
 description : "Contact Us"
 image: "/assets/images/contact.svg"

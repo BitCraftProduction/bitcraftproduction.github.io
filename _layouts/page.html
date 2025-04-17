@@ -1,28 +1,15 @@
----
-layout: default
----
-<!-- Post Featured Image -->
-{% if page.image %}
-<div class="text-center mx-auto mb-5">
-  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
-</div>
-{% endif %}
-<!-- End Featured Image -->
+<!DOCTYPE html>
+<html lang="en-US">
+{% include head.html %}
 
-<div class="col-lg-8 mx-auto">
+<body>
+	{% include preloader.html %}
+	{% include header.html %}
+	{% if page.url != "/" %}<div class="py-5 d-none d-lg-block"></div>{% endif %}
+	<div class="default-page-content">
+	{{ content }}
+	</div>
+	{% include footer.html %}
+</body>
 
-  <div class="mainheading">
-    <h1 class="posttitle">{{ page.title }}</h1>
-  </div>
-
-  <div class="article-post serif-font">
-    {{content}}
-  </div>
-
-  {% if page.comments == true %}
-  <div id="comments">             
-      {% include disqus.html %} 
-  </div>
-  {% endif %}
-
-</div>
+</html>

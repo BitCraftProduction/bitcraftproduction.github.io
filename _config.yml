@@ -1,46 +1,48 @@
-title: "BitCraft Production"
-description: "Building tools, apps, games, and creative magic."
-email: your-email@example.com
-timezone: UTC
-baseurl: "" # If you're hosting at a subpath, set it like "/myproject"
-url: "https://www.bitcraftproduction.com" # Don't forget https!
+baseurl: "" # the subpath of your site, e.g. blog/
+url: "https://www.bitcraftproduction.com" # the base hostname & protocol for your site, e.g. http://example.com/
 
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-author: Ganesh Kumar
-paginate: 30
-disqus: '' # leave blank for now
-locale: en_us
-lang: en_us
-feed_items: 10
-feed_update_period: daily
-feed_update_frequency: 1
-ganalytics: UA-113961478-1
+title: BitCraft Production
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
+#################### Comment Section (Disqus) ################
+disqus_shortname: "" # Add your shortname for Disqus Comment. For example : mr-brown
 
+# Scss Directory
 sass:
-  sass_dir: _sass
-  style: :compressed
+  sass_dir: assets/scss
+  style: compressed
 
-# Plugin Settings
+# Build settings
+markdown: kramdown
+permalink: pretty
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
+  - jekyll/tagging
 
-# Posts & Pages Path Configs
+paginate: 6
+paginate_path: "/page/:num"
+
+# include
+include:
+  - _pages
+  - _authors
+
+# Pages Path
 defaults:
   - scope:
       path: "_pages"
     values:
       permalink: /:basename:output_ext
-      layout: page
+
+  - scope:
+      path: "_authors"
+    values:
+      permalink: /author/:basename:output_ext
+      layout: author
 
   - scope:
       path: ""
@@ -49,26 +51,13 @@ defaults:
       permalink: post/:title:output_ext
       layout: post
 
-# Authors (replace or extend as needed)
-authors:
-  ganesh:
-    name: Ganesh Kumar
-    display_name: Ganesh Kumar
-    avatar: 'assets/images/ganesh.png' # Optional
-    email: your-email@example.com
-    web: https://www.bitcraftproduction.com
-    twitter: https://twitter.com/yourhandle
-    description: "Founder of BitCraft Production. Building Study Friend and more."
+# Tags
+tag_page_dir: tag
+tag_page_layout: tags
+tag_permalink_style: pretty
 
-# Social
-social:
-  instagram: https://www.instagram.com/yourhandle
-  facebook: https://www.facebook.com/yourpage
-  twitter: https://twitter.com/yourhandle
-
-# Exclude from processing
+# Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - README.md

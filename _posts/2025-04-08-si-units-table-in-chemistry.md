@@ -1,21 +1,11 @@
 ---
-layout: post
-title:  "All SI Units Table in Chemistry (With Symbols & Quantities)"
-categories: [ Education ]
-image: /assets/images/post/2025/si_units_in_chemistry.webp
----
-
-<!-- ---
-layout: post
 title : "All SI Units Table in Chemistry (With Symbols & Quantities)"
 image : "/assets/images/post/2025/si_units_in_chemistry.webp"
 author : "BitCraft Production"
 date: 2025-04-08 09:36:50 +0600
 description : "The International System of Units (SI Units) is the modern form of the metric system and is used worldwide in science, engineering, and everyday measurements."
 tags : ["Education"]
---- -->
-
-
+---
 
 
 Whether you're studying for an upcoming chemistry quiz or exploring scientific measurement systems, **SI Units** (International System of Units) is crucial for them. These units create a universal language of science — used in chemistry labs and scientific research across the globe.
