@@ -21,6 +21,7 @@ Math has always fascinated me, and one of the coolest parts about it is how form
 ## Important ACT Math Formulas You Must Know
 
 \\(f(x) = x^2\\)
+$f(x) = x^2$
 
 ### 1. **Pre-Algebra**
    - **Percentage Formula:**
