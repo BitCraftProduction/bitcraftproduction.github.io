@@ -60,7 +60,8 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ## 195 Countries and Their Capitals
 
-### 🇦 Countries Starting with A
+### Countries Starting with A
+
 | Country                 | Capital               |
 |-------------------------|-----------------------|
 | Afghanistan             | Kabul                 |
@@ -77,7 +78,8 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇧 Countries Starting with B
+### Countries Starting with B
+
 | Country                 | Capital               |
 |-------------------------|-----------------------|
 | Bahamas                 | Nassau                |
@@ -100,7 +102,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇨 Countries Starting with 
+### Countries Starting with C
 
 | Country                          | Capital               |
 |----------------------------------|-----------------------|
@@ -124,7 +126,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇩 Countries Starting withD
+### Countries Starting with D
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -135,7 +137,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇪 Countries Starting wit E
+### Countries Starting wit E
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -151,7 +153,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇫 Countries Starting wih F
+### Countries Starting wih F
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -161,7 +163,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇬 Countries Starting wth G
+### Countries Starting wth G
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -179,7 +181,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇭 Countries Starting ith H
+### Countries Starting ith H
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -189,7 +191,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇮 Countries Startingwith I
+### Countries Startingwith I
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -205,7 +207,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇯 Countries Startin with J
+### Countries Startin with J
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -215,7 +217,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇰 Countries Startig with K
+### Countries Startig with K
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -229,7 +231,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇱 Countries Startng with L
+### Countries Startng with L
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -245,7 +247,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇲 Countries Staring with M
+### Countries Staring with M
 
 | Country               | Capital               |
 |-----------------------|-----------------------|
@@ -270,7 +272,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇳 Countries Starting with N
+### Countries Starting with N
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -287,7 +289,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇴 Country Starting with O
+### Country Starting with O
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -295,7 +297,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇵 Countries Starting with P
+### Countries Starting with P
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -312,7 +314,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇶 Country Starting with Q
+### Country Starting with Q
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -320,7 +322,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇷 Countries Starting with R
+### Countries Starting with R
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -330,7 +332,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇸 Countries Starting with S
+### Countries Starting with S
 
 | Country                         | Capital            |
 |----------------------------------|--------------------|
@@ -362,7 +364,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇹 Countries Starting with T
+### Countries Starting with T
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -380,7 +382,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇺 Countries Starting with U
+### Countries Starting with U
 
 | Country                  | Capital        |
 |--------------------------|----------------|
@@ -394,7 +396,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇻 Countries Starting with V
+### Countries Starting with V
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -405,7 +407,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇾 Country Starting with Y
+### Country Starting with Y
 
 | Country             | Capital        |
 |---------------------|----------------|
@@ -413,7 +415,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 
 ---
 
-### 🇿 Countries Starting with Z
+### Countries Starting with Z
 
 | Country             | Capital        |
 |---------------------|----------------|
