@@ -1,5 +1,5 @@
 ---
-title : "All 195 Countries and Their Capitals - Alph"
+title : "All 195 Countries and Their Capitals"
 image : "/assets/images/post/2025/countries_capitals.webp"
 author : "BitCraft Production"
 date: 2025-04-21 07:00:00 +0600
@@ -61,7 +61,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 ## 195 Countries and Their Capitals
 
 ### 🇦 Countries Starting with A
-| Country                 | Capital               |
+| Country                 | Capital               |
 |-------------------------|-----------------------|
 | Afghanistan             | Kabul                 |
 | Albania                 | Tirana                |
@@ -73,12 +73,12 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Armenia                 | Yerevan               |
 | Australia               | Canberra              |
 | Austria                 | Vienna                |
-| Azerbaijan              | Baku                  
+| Azerbaijan              | Baku                  |
 
 ---
 
 ### 🇧 Countries Starting with B
-| Country                 | Capital               |
+| Country                 | Capital               |
 |-------------------------|-----------------------|
 | Bahamas                 | Nassau                |
 | Bahrain                 | Manama                |
@@ -96,13 +96,13 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Brunei                  | Bandar Seri Begawan   |
 | Bulgaria                | Sofia                 |
 | Burkina Faso            | Ouagadougou           |
-| Burundi                 | Gitega               |
+| Burundi                 | Gitega                |
 
 ---
 
 ### 🇨 Countries Starting with 
 
-| Country                          | Capital               |
+| Country                          | Capital               |
 |----------------------------------|-----------------------|
 | Cabo Verde                       | Praia                 |
 | Cambodia                         | Phnom Penh            |
@@ -120,24 +120,24 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Croatia                          | Zagreb                |
 | Cuba                             | Havana                |
 | Cyprus                           | Nicosia               |
-| Czech Republic                   | Prague               |
+| Czech Republic                   | Prague                |
 
 ---
 
 ### 🇩 Countries Starting withD
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Denmark               | Copenhagen            |
 | Djibouti              | Djibouti              |
 | Dominica              | Roseau                |
-| Dominican Republic    | Santo Domingo        |
+| Dominican Republic    | Santo Domingo         |
 
 ---
 
 ### 🇪 Countries Starting wit E
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | East Timor (Timor-Leste)| Dili                |
 | Ecuador               | Quito                 |
@@ -147,23 +147,23 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Eritrea               | Asmara                |
 | Estonia               | Tallinn               |
 | Eswatini              | Mbabane (administrative), Lobamba (royal and legislative) |
-| Ethiopia              | Addis Ababa          |
+| Ethiopia              | Addis Ababa          |
 
 ---
 
 ### 🇫 Countries Starting wih F
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Fiji                  | Suva                  |
 | Finland               | Helsinki              |
-| France                | Paris                |
+| France                | Paris                |
 
 ---
 
 ### 🇬 Countries Starting wth G
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Gabon                 | Libreville            |
 | Gambia                | Banjul                |
@@ -175,23 +175,23 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Guatemala             | Guatemala City        |
 | Guinea                | Conakry               |
 | Guinea-Bissau         | Bissau                |
-| Guyana                | Georgetown           |
+| Guyana                | Georgetown            |
 
 ---
 
 ### 🇭 Countries Starting ith H
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Haiti                 | Port-au-Prince        |
 | Honduras              | Tegucigalpa           |
-| Hungary               | Budapest             |
+| Hungary               | Budapest              |
 
 ---
 
 ### 🇮 Countries Startingwith I
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Iceland               | Reykjavik             |
 | India                 | New Delhi             |
@@ -201,23 +201,23 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Ireland               | Dublin                |
 | Israel                | Jerusalem             |
 | Italy                 | Rome                  |
-| Ivory Coast           | Yamoussoukro         |
+| Ivory Coast           | Yamoussoukro          |
 
 ---
 
 ### 🇯 Countries Startin with J
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Jamaica               | Kingston              |
 | Japan                 | Tokyo                 |
-| Jordan                | Amman                |
+| Jordan                | Amman                 |
 
 ---
 
 ### 🇰 Countries Startig with K
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Kazakhstan            | Astana                |
 | Kenya                 | Nairobi               |
@@ -225,13 +225,13 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Korea, North          | Pyongyang             |
 | Korea, South          | Seoul                 |
 | Kuwait                | Kuwait City           |
-| Kyrgyzstan            | Bishkek              |
+| Kyrgyzstan            | Bishkek               |
 
 ---
 
 ### 🇱 Countries Startng with L
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Laos                  | Vientiane             |
 | Latvia                | Riga                  |
@@ -241,13 +241,13 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Libya                 | Tripoli               |
 | Liechtenstein         | Vaduz                 |
 | Lithuania             | Vilnius               |
-| Luxembourg            | Luxembourg           |
+| Luxembourg            | Luxembourg            |
 
 ---
 
 ### 🇲 Countries Staring with M
 
-| Country               | Capital               |
+| Country               | Capital               |
 |-----------------------|-----------------------|
 | Madagascar            | Antananarivo          |
 | Malawi                | Lilongwe              |
@@ -266,7 +266,7 @@ Perfect! Here's a short and effective structure with **Problem → Solution → 
 | Montenegro            | Podgorica             |
 | Morocco               | Rabat                 |
 | Mozambique            | Maputo                |
-| Myanmar               | Naypyidaw            |
+| Myanmar               | Naypyidaw             |
 
 ---
 
