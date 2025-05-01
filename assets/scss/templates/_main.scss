@@ -247,72 +247,142 @@
   }
 
   .content {
-    padding: 0 15px; // optional: add if content is too wide
+    padding: 0 1px; // optional: add if content is too wide
   }
 }
 
+/* Modern CSS for Study Friend Promo Card */
+/* Using color psychology and persuasion principles */
 
+/* Card Styling */
 .promo-card {
-  background: #f9f9ff;
-  border: 2px solid #e0e0f0;
-  border-radius: 12px;
-  padding: 30px;
-  max-width: 700px;
-  margin: 40px auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  max-width: 450px;
+  margin: 2rem auto;
+  background: #f8fafc;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
 }
 
 .promo-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.2), 0 15px 15px -5px rgba(0, 0, 0, 0.08);
 }
 
+/* Colored Line at Top */
+.promo-card hr {
+  height: 8px;
+  margin: 0;
+  border: none;
+  background: linear-gradient(90deg, #4338ca, #3b82f6);
+}
+
+/* Content Container */
+.promo-content {
+  padding: 1.75rem 2rem;
+}
+
+/* Headings */
 .promo-content h4 {
-  font-size: 1.6rem;
-  color: #333366;
-  margin-bottom: 10px;
+  color: #1e293b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
+/* Paragraphs */
 .promo-content p {
-  font-size: 1rem;
-  color: #444;
-  margin: 6px 0;
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
 }
 
-.btn-download {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 12px 20px;
-  background: #4b7bec;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 8px;
+/* Strong Emphasis */
+.promo-content strong {
+  color: #6366f1;
+  font-weight: 700;
+}
+
+/* Download Button */
+.promo-btn {
+  display: block;
+  background: linear-gradient(135deg, #6366f1, #4338ca);
+  color: white;
   text-decoration: none;
-  transition: background 0.3s ease;
+  padding: 0.9rem 1.25rem;
+  margin: 1.5rem 0 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px -1px rgba(99, 102, 241, 0.3), 0 2px 4px -1px rgba(99, 102, 241, 0.2);
 }
 
-.btn-download:hover {
-  background: #3867d6;
+.promo-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 10px -3px rgba(99, 102, 241, 0.4), 0 4px 6px -2px rgba(99, 102, 241, 0.3);
 }
 
+.promo-btn:active {
+  transform: translateY(1px);
+}
+
+/* Add a subtle pulsing effect to draw attention */
+.promo-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 70%);
+  opacity: 0;
+  border-radius: 8px;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0; transform: scale(0.8); }
+  50% { opacity: 0.5; transform: scale(1.5); }
+  100% { opacity: 0; transform: scale(2); }
+}
+
+/* Tagline */
 .tagline {
-  margin-top: 10px;
-  font-style: italic;
-  color: #2d3436;
+  color: #f59e0b;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.02em;
 }
 
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  .promo-card {
-    padding: 20px;
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .promo-content {
+    padding: 1.25rem 1.5rem;
   }
-
+  
   .promo-content h4 {
     font-size: 1.3rem;
   }
-
-  .btn-download {
-    width: 100%;
-    text-align: center;
+  
+  .promo-content p {
+    font-size: 1rem;
+  }
+  
+  .promo-btn {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
   }
 }
