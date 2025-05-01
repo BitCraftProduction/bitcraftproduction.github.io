@@ -235,3 +235,84 @@
     }
   }
 }
+
+
+@media (max-width: 767px) {
+  .block {
+    padding: 20px 15px; // reduce padding for mobile
+  }
+
+  .banner {
+    padding: 80px 0 40px; // smaller top/bottom padding for mobile
+  }
+
+  .content {
+    padding: 0 15px; // optional: add if content is too wide
+  }
+}
+
+
+.promo-card {
+  background: #f9f9ff;
+  border: 2px solid #e0e0f0;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.promo-card:hover {
+  transform: translateY(-5px);
+}
+
+.promo-content h4 {
+  font-size: 1.6rem;
+  color: #333366;
+  margin-bottom: 10px;
+}
+
+.promo-content p {
+  font-size: 1rem;
+  color: #444;
+  margin: 6px 0;
+}
+
+.btn-download {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #4b7bec;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-download:hover {
+  background: #3867d6;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-style: italic;
+  color: #2d3436;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .promo-card {
+    padding: 20px;
+  }
+
+  .promo-content h4 {
+    font-size: 1.3rem;
+  }
+
+  .btn-download {
+    width: 100%;
+    text-align: center;
+  }
+}
