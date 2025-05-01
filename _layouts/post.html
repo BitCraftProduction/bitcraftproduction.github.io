@@ -23,6 +23,29 @@ layout : default
         <div class="content mb-5">
           {{ page.content }}
         </div>
+
+        {% if page.faqs %}
+        <div class="faqs">
+          <h3 class="h4">Frequently Asked Questions</h3>
+          {% for faq in page.faqs %}
+          <div class="faq-item">
+            <h4 class="h5">{{ faq.question }}</h4>
+            <p>{{ faq.answer }}</p>
+          </div>
+          {% endfor %}
+        </div>
+
+        <div class="alert">
+          <hr>
+          <div class="alert alert-primary" role="alert">
+            <h4 class="alert-heading">Feeling overwhelmed with study notes?</h4>
+            <p>Too much to read, not enough time?</p>
+            <p>Meet Study Friend — your AI-powered study buddy.</p>
+            <p>It creates flashcards, mind maps, and quick facts from any topic in seconds.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.studyfriend.mobile" class="btn btn-primary">Download Study Friend Now</a> — Study less, score more.
+          </div>
+        </div>
+        {% endif %}
         <!-- comments -->
         {% if site.disqus_shortname %}
           {% include disqus-comments.html %}
