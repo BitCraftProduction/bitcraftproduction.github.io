@@ -1,6 +1,6 @@
 ---
 title : "Best 5 Flashcard Makers for Students in 2025 (Free & Easy)"
-image : "/assets/images/post/2025/best_flashcards_maker_for_students.webp"
+image : "/assets/images/post/2025/best_flashcard_maker.webp"
 author : "BitCraft Production"
 date: 2025-05-05 17:28:10 +0600
 description : "5 best flashcard makers for students in 2025 are Study Friend, Anki, Quizlet, Brainscape, and Cram."
