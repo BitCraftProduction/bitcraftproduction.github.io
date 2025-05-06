@@ -21,10 +21,10 @@ There are **five major polytechnics in Singapore** as of 2025, offering a wide v
 There are **5 polytechnics in Singapore** as of 2025:
 
 1. **[Nanyang Polytechnic (NYP)](https://www.nyp.edu.sg/)**
-2. **[Ngee Ann Polytechnic (NP)](https://www.ngeeanyp.edu.sg/)**
+2. **[Ngee Ann Polytechnic (NP)](https://www.np.edu.sg/)**
 3. **[Republic Polytechnic (RP)](https://www.rp.edu.sg/)**
 4. **[Singapore Polytechnic (SP)](https://www.sp.edu.sg/)**
-5. **[Temasek Polytechnic (TP)](https://www.tasek.edu.sg/)**
+5. **[Temasek Polytechnic (TP)](https://www.tp.edu.sg/)**
 
 Each of these institutions offers a wide range of diploma programs in fields like engineering, business, design, information technology, health sciences, and more. They’re known for blending academic knowledge with real-world projects, making them ideal for students who want to hit the ground running after graduation.
 
