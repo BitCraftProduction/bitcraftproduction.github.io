@@ -2,7 +2,7 @@
 title : "How Many Polytechnics in Singapore in 2025"
 image : "/assets/images/post/2025/polytechnic_in_singapore.webp"
 author : "BitCraft Production"
-date: 2025-05-06 17:28:10 +0600
+date: 2025-05-06 16:28:10 +0600
 description : "Discover how many polytechnics are in Singapore (2025 update) and how you can supercharge your study life with AI-powered tools like Study Friend."
 tags : ["Study", "Polytechnic", "Singapore"]
 faqs:
