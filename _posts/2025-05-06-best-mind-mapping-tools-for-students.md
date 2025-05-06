@@ -2,7 +2,7 @@
 title : "Best Mind Mapping Tools for Students in 2025"
 image : "/assets/images/post/2025/best_mind_mapping_tools_for_students.webp"
 author : "Ganesh Kumar"
-date: 2025-05-06 16:28:10 +0600
+date: 2025-05-06 17:28:10 +0600
 description : "Discover the best mind mapping tools for students in 2025 and how you can supercharge your study life with AI-powered tools like Study Friend."
 tags : ["Study", "Mind Mapping", "Tools"]
 faqs:
