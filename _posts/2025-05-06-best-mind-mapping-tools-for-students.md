@@ -29,7 +29,7 @@ It was a mess.
 
 The software kept freezing, the interface looked like it was built during the Windows XP era, and my “study session” ended with me rage-quitting and watching 5 hours of conspiracy theories about the pyramids instead.
 
-[!This is fine dog meme](/assets/images/post/2025/this_is_fine_dog_meme.webp)
+![This is fine dog meme](/assets/images/post/2025/this_is_fine_dog_meme.webp)
 
 That day, I realized something: **not all mind mapping software is built for students.**
 
@@ -48,7 +48,7 @@ Oh, and it better be **free**. I’m already broke from textbooks and overpriced
 
 ### Why I Switched to Study Friend (And Never Looked Back)
 
-[!Work smart, not hard](/assets/images/post/2025/complex_mind_map_vs_studyfriend.png)
+![Work smart, not hard](/assets/images/post/2025/complex_mind_map_vs_studyfriend.png)
 
 I found *Study Friend* during a late-night doom scroll through Reddit threads like “What is the best free mind mapping tool?” and “HELP I HAVE AN EXAM IN 6 HOURS.” Classic.
 
@@ -82,7 +82,7 @@ But if you’re a broke, caffeine-addicted student cramming for tomorrow’s exa
 
 ### What I Do Now (And What You Should Try)
 
-[!My study game after switching to Study Friend](/assets/images/post/2025/upgrading.webp)
+![My study game after switching to Study Friend](/assets/images/post/2025/upgrading.webp)
 
 I’ve built Study Friend into my daily study flow. Quick topic → AI mind map → 5-minute overview → deeper dive if needed. It saves me hours. It actually makes studying fun. (Well… less terrible.)
 
