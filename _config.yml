@@ -1,10 +1,11 @@
 baseurl: "" # the subpath of your site, e.g. blog/
-url: "https://www.bitcraftproduction.com"
+url: "https://www.bitcraftproduction.com" # the base hostname & protocol for your site, e.g. http://example.com/
 
 title: BitCraft Production
 description: >- # this means to ignore newlines until "baseurl:"
   Building creative apps, tools, and games for the future.
 
+#################### Comment Section (Disqus) ################
 disqus_shortname: "" # Add your shortname for Disqus Comment. For example : mr-brown
 
 # Scss Directory
@@ -27,14 +28,12 @@ paginate_path: "/page/:num"
 include:
   - _pages
   - _authors
-  - _es
 
 # Pages Path
 defaults:
   - scope:
       path: "_pages"
     values:
-      layout: page
       permalink: /:basename:output_ext
 
   - scope:
@@ -42,14 +41,6 @@ defaults:
     values:
       permalink: /author/:basename:output_ext
       layout: author
-      lang: en
-
-  - scope:
-      path: "_es"
-    values:
-      permalink: /es/:basename:output_ext
-      layout: post
-      lang: es
 
   - scope:
       path: ""
@@ -57,15 +48,7 @@ defaults:
     values:
       permalink: post/:title:output_ext
       layout: post
-      lang: en
 
-  # - scope:
-  #     path: "es"
-  #     type: "posts"
-  #   values:
-  #     lang: es
-  #     permalink: /es/:title/
-  #     layout: post
 # Tags
 tag_page_dir: tag
 tag_page_layout: tags
