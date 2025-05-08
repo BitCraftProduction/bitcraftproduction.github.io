@@ -27,12 +27,14 @@ paginate_path: "/page/:num"
 include:
   - _pages
   - _authors
+  - _es
 
 # Pages Path
 defaults:
   - scope:
       path: "_pages"
     values:
+      layout: page
       permalink: /:basename:output_ext
 
   - scope:
@@ -40,6 +42,14 @@ defaults:
     values:
       permalink: /author/:basename:output_ext
       layout: author
+      lang: en
+
+  - scope:
+      path: "_es"
+    values:
+      permalink: /es/:basename:output_ext
+      layout: post
+      lang: es
 
   - scope:
       path: ""
