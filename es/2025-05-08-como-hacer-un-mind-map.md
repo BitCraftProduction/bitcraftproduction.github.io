@@ -1,7 +1,9 @@
 ---
+layout: post
 title : "¿Cómo Hacer un Mind Map? | AI Mind Map en Chile"
 image : "/assets/images/post/2025/ai_mind_map_chile.webp"
 author : "BitCraft Production"
+lang: es
 date: 2025-05-08 15:00:00 +0600
 description : "¿Cómo hacer un mind map? | Guía completa para estudiantes y profesionales en Chile"
 tags : ["Study", "Mind Map"]
