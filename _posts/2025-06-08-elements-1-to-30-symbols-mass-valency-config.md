@@ -2,7 +2,7 @@
 title : "1 to 30 Elements with Symbols, Atomic Mass, Valency & Electronic Configuration"
 image : "/assets/images/post/2025/elements_1_to_30.webp"
 author : "BitCraft Production"
-date: 2025-06-08 16:28:10 +0600
+date: 2025-05-08 16:28:10 +0600
 description : "Discover 1 to 30 elements of periodic table with symbols, atomic mass, valency & electronic configuration."
 tags : ["Study", "Element", "Chemistry"]
 faqs:
