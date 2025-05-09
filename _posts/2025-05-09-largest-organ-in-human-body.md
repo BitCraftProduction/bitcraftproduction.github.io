@@ -1,5 +1,5 @@
 ---
-title : "Top 10 Largest Organ in Human Body"
+title : "Top 10 Largest Organs in Human Body"
 image : "/assets/images/post/2025/largest_organs_of_the_human_body.webp"
 author : "BitCraft Production"
 date: 2025-05-09 16:07:10 +0600
