@@ -47,8 +47,7 @@ SI Units, or the **Système International d'Unités**, are the globally accepted
 | **Catalytic activity**        | katal                    | kat                | Rate of enzymatic or catalytic activity             |
 
 ---
-
-
+> Learn more about [Elements 1 to 30 Symbols, Mass, Valency & Config](https://www.bitcraftproduction.com/post/elements-1-to-30-symbols-mass-valency-config.html) guide.
 
 ## People Also Ask (FAQs)
 

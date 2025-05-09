@@ -167,7 +167,7 @@ An excellent conductor of electricity. Used in wires and plumbing.
 **30. Zinc (Zn):**
 Used to prevent rusting (galvanization) and in vitamin supplements.
 
-Learn more about the SI units of measurement in chemistry by reading our [SI Units Table in Chemistry](https://www.bitcraftproduction.com/post/si-units-table-in-chemistry.html) guide.
+> Learn more about the SI units of measurement in chemistry by reading our [SI Units Table in Chemistry](https://www.bitcraftproduction.com/post/si-units-table-in-chemistry.html) guide.
 
 ## Easy Mnemonics to Remember 1–30 Elements & Their Valency
 
